@@ -13,23 +13,12 @@ public class Passenger {
         return psngrName;
     }
 
-    public void setPsngrName(String psngrName) {
-        this.psngrName = psngrName;
-    }
-
     public int getPsngrAge() {
         return psngrAge;
     }
 
-    public void setPsngrAge(int psngrAge) {
-        this.psngrAge = psngrAge;
-    }
 
     public Long getMobileNo() {
         return mobileNo;
-    }
-
-    public void setMobileNo(Long mobileNo) {
-        this.mobileNo = mobileNo;
     }
 }

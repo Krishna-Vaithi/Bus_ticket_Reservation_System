@@ -3,26 +3,18 @@ public class Bus {
     private int totalSeats;
     private int currentCapacity;
 
-    public Bus(int busNo, int totalSeats, int currentCapacity) {
+    public Bus(int busNo, int totalSeats) {
         this.busNo = busNo;
         this.totalSeats = totalSeats;
-        this.currentCapacity = currentCapacity;
+        this.currentCapacity = totalSeats;
     }
 
     public int getBusNo() {
         return busNo;
     }
 
-    public void setBusNo(int busNo) {
-        this.busNo = busNo;
-    }
-
     public int getTotalSeats() {
         return totalSeats;
-    }
-
-    public void setTotalSeats(int totalSeats) {
-        this.totalSeats = totalSeats;
     }
 
     public int getCurrentCapacity() {
